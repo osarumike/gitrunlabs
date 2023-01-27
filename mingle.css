@@ -1,0 +1,5 @@
+#Checkout Feature in Java
+
+    Map<String, Object> paramsPriceIdList1 = new HashMap<>();
+paramsPriceIdList1.put("price", price_id1);
+paramsPriceIdList1.put("quantity", 2);
