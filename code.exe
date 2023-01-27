@@ -1,0 +1,14 @@
+Map<String, Object> params = new HashMap<>();
+params.put(
+        "success_url",
+        "https://example.com/success"
+);
+params.put(
+        "cancel_url",
+        "https://example.com/cancel"
+);
+params.put("line_items", lineItems);
+params.put("mode", "subscription");
+
+Session session = Session.create(params);
+System.out.println(session);
