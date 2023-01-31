@@ -5,6 +5,7 @@ db.connect();
         pst.setString(1, view.getUsername());
         pst.setString(2, view.getPassword());
         rs = pst.executeQuery();
+        pst - extensions (1- hue, base)
 
         if (rs.next()) {
             if(view.getUsername.equals("Admin"))
